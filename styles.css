@@ -496,6 +496,22 @@ input:focus, textarea:focus {
   font-weight: 600;
 }
 
+.social-links .social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.social-link .icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--lime-green);
+}
+
+.social-link:hover {
+  color: var(--white);
+}
+
 .page {
   background: #f7fbff;
 }
