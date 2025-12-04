@@ -503,8 +503,8 @@ input:focus, textarea:focus {
 }
 
 .social-link .icon {
-  width: 18px;
-  height: 18px;
+  width: 36px;
+  height: 36px;
   fill: var(--lime-green);
 }
 
