@@ -86,6 +86,10 @@ img {
   height: 60px;
   background: url('img/logo-full.svg') center/contain no-repeat;
   text-indent: -9999px;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
 }
 
 .site-nav {
