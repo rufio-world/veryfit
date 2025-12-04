@@ -1,0 +1,8 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RiverFit logo">
+  <rect width="800" height="800" fill="#072F4A"/>
+  <path d="M310 190h200c101 0 162 59 162 148 0 69-34 120-99 137l97 116h-111l-90-113h-58v113h-101V190Zm192 217c47 0 76-23 76-68 0-45-29-68-76-68h-120v136h120Z" fill="#FFFFFF"/>
+  <path d="M248 340c30-81 190-146 323-67 0 0-48-12-111 13-69 29-117 83-189 87-49 3-54-26-23-33Z" fill="#7BE05E"/>
+  <path d="M552 320c-41-48-166-27-241 15-46 24-99 28-128 12 0 0 5 57 78 53 94-5 174-80 291-80Z" fill="#51C25F"/>
+  <text x="400" y="570" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="80" letter-spacing="8" fill="#FFFFFF">RIVERFIT</text>
+  <text x="400" y="618" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="500" font-size="20" letter-spacing="6" fill="#D5E6F5">PREMIUM FITNESS</text>
+</svg>
