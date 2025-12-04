@@ -1,0 +1,8 @@
+<svg width="500" height="180" viewBox="0 0 500 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RiverFitHuelva">
+  <rect width="500" height="180" fill="#072F4A"/>
+  <path d="M196 30h104c53 0 85 31 85 78 0 37-19 64-52 73l52 63h-78l-47-61h-25v61h-39V30Zm100 115c24 0 38-13 38-37s-14-37-38-37h-63v74h63Z" fill="#FFFFFF"/>
+  <path d="M148 109c16-43 102-77 173-35 0 0-25.6-6.4-59.2 7.1-36.5 14.9-62.2 44.4-100.3 46.8-26 1.7-28.3-13.9-13.5-18.9Z" fill="#7BE05E"/>
+  <path d="M340 97c-22.1-25.1-89.2-14-129.7 7.6-24.5 12.6-53 15.2-68.5 6.4 0 0 2.8 31 42.2 28.9 50.2-2.3 92.8-43.3 156-42.9Z" fill="#51C25F"/>
+  <text x="250" y="150" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="40" letter-spacing="5" fill="#FFFFFF">RIVERFIT</text>
+  <text x="250" y="172" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="500" font-size="14" letter-spacing="3" fill="#D5E6F5">PREMIUM FITNESS</text>
+</svg>
