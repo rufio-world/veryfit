@@ -55,6 +55,20 @@ img {
 .logo {
   font-weight: 700;
   letter-spacing: 0.5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.logo::before {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: url('img/logo.svg') center/contain no-repeat;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
 }
 
 .site-nav {

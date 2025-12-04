@@ -1,0 +1,8 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RiverFit Huelva logo">
+  <circle cx="250" cy="250" r="250" fill="#072F4A"/>
+  <path d="M204 119h91c46 0 74 27 74 69 0 33-17 57-46 65l46 58h-69l-42-56h-22v56h-32V119Zm88 102c21 0 34-12 34-31 0-19-13-31-34-31h-56v62h56Z" fill="#FFFFFF"/>
+  <path d="M164 208c14-37 90-67 152-30 0 0-22.5-5.5-52 6-32 13-55 38-89 40-23 1-25-12-11-16Z" fill="#7BE05E"/>
+  <path d="M332 199c-19.5-21.5-78.5-12-114 6.5-21.5 10.8-46.5 13-60 5.5 0 0 2.5 27 37 25 44-2 82-37 137-37Z" fill="#51C25F"/>
+  <text x="250" y="340" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="700" font-size="48" letter-spacing="4" fill="#FFFFFF">RIVERFIT</text>
+  <text x="250" y="370" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="500" font-size="16" letter-spacing="3" fill="#D5E6F5">PREMIUM FITNESS</text>
+</svg>
