@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrenamiento de fuerza y acondicionamiento muscular en Huelva | RiverFit Huelva</title>
+  <meta name="description" content="Fuerza y acondicionamiento en Huelva con técnica correcta, masa muscular y prevención de lesiones. Programa guiado en RiverFit Huelva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">RiverFit Huelva</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="entrenamientos.html" class="active">Entrenamientos</a>
+        <a href="horarios-tarifas.html">Horarios y tarifas</a>
+        <a href="resultados-comunidad.html">Resultados</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero inner">
+      <div class="container hero-narrow">
+        <h1>Fuerza y acondicionamiento muscular</h1>
+        <p class="lead">Programa enfocado en construir fuerza real, ganar masa muscular y mover peso con técnica impecable para prevenir lesiones.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-grid">
+        <div>
+          <h2>Qué trabajas</h2>
+          <p>Planificación por bloques: básicos de fuerza, accesorios para masa muscular, core y estabilidad, y cardio de apoyo para recuperar mejor.</p>
+          <h2>Para quién es</h2>
+          <p>Personas que quieren verse y sentirse fuertes, mejorar su postura y proteger articulaciones mientras progresan en cargas.</p>
+        </div>
+        <div>
+          <h2>Cómo son las sesiones</h2>
+          <ul class="check-list">
+            <li>Test de técnica y cargas seguras.</li>
+            <li>Trabajo principal de fuerza (3–5 repeticiones).</li>
+            <li>Accesorios para hipertrofia y estabilidad.</li>
+            <li>Condicionamiento corto para mejorar recuperación.</li>
+          </ul>
+          <h2>Beneficios</h2>
+          <p>Más músculo, articulaciones estables, menos dolor y confianza al mover peso tanto en el box como en tu día a día.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-teaser">
+      <div class="container contact-banner">
+        <div>
+          <h2>Empieza a ganar fuerza hoy</h2>
+          <p>Agenda tu valoración y recibe un plan de cargas adaptado a ti.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="contacto.html">Hablar con un coach</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>RiverFit Huelva — Entrenamiento híbrido de fuerza y acondicionamiento en Huelva.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

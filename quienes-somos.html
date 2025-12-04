@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiénes somos | RiverFit Huelva</title>
+  <meta name="description" content="Conoce la historia, filosofía y equipo de RiverFit Huelva. Entrenamiento híbrido con técnica, seguridad y cercanía en Huelva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">RiverFit Huelva</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="entrenamientos.html">Entrenamientos</a>
+        <a href="horarios-tarifas.html">Horarios y tarifas</a>
+        <a href="resultados-comunidad.html">Resultados</a>
+        <a href="quienes-somos.html" class="active">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero inner">
+      <div class="container hero-narrow">
+        <h1>Quiénes somos</h1>
+        <p class="lead">Nacimos junto al río de Huelva para crear un espacio donde entrenar fuerte, con técnica y sin egos.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Nuestra historia</h2>
+        <p>RiverFit surge de la idea de fluir: fuerza y control en el movimiento. Empezamos como un pequeño grupo de entrenadores obsesionados con la técnica y hemos crecido hasta convertirnos en el centro de referencia en entrenamiento híbrido en Huelva.</p>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Nuestra filosofía de entrenamiento</h2>
+        <div class="grid cards-3">
+          <div class="card">
+            <h3>Técnica antes que ego</h3>
+            <p>Cada repetición cuenta. Ajustamos tus patrones para que progreses sin lesionarte.</p>
+          </div>
+          <div class="card">
+            <h3>Progresión segura</h3>
+            <p>Programación por bloques y cargas adaptadas. No creemos en el “a tope” sin sentido.</p>
+          </div>
+          <div class="card">
+            <h3>Ambiente cercano</h3>
+            <p>Somos una comunidad, no una sala de máquinas. Entrenas acompañado y con feedback.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>El equipo</h2>
+        <div class="grid cards-3">
+          <div class="card team">
+            <h3>Laura Rivero</h3>
+            <p>Head Coach · Especialista en fuerza y prevención de lesiones. Apasionada de la técnica perfecta.</p>
+          </div>
+          <div class="card team">
+            <h3>Diego Martín</h3>
+            <p>Coach de acondicionamiento y MetCon. Diseña sesiones intensas pero controladas.</p>
+          </div>
+          <div class="card team">
+            <h3>Inés Castillo</h3>
+            <p>Coach de calistenia y movilidad. Te guía en progresiones seguras para dominar tu cuerpo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-teaser">
+      <div class="container contact-banner">
+        <div>
+          <h2>Entrena con nosotros</h2>
+          <p>Te esperamos en el box para una valoración inicial sin compromiso.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="contacto.html">Reserva tu prueba</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>RiverFit Huelva — Entrenamiento híbrido de fuerza y acondicionamiento en Huelva.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

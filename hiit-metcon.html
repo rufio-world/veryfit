@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIIT y MetCon en Huelva | RiverFit Huelva</title>
+  <meta name="description" content="HIIT y MetCon inteligentes en Huelva: quema grasa, mejora tu rendimiento y cuida tu técnica con la guía de RiverFit Huelva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">RiverFit Huelva</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="entrenamientos.html" class="active">Entrenamientos</a>
+        <a href="horarios-tarifas.html">Horarios y tarifas</a>
+        <a href="resultados-comunidad.html">Resultados</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero inner">
+      <div class="container hero-narrow">
+        <h1>HIIT y MetCon</h1>
+        <p class="lead">Intervalos de alta intensidad y MetCon diseñados para mejorar tu rendimiento, quemar grasa y elevar tu capacidad sin entrenar a lo loco.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-grid">
+        <div>
+          <h2>Qué trabajas</h2>
+          <p>Protocolos de intervalos, trabajo de potencia y estímulos metabólicos combinados con técnica de movimientos para que cada minuto cuente.</p>
+          <h2>Para quién es</h2>
+          <p>Personas que buscan energía, definición y rendimiento, y ex CrossFitters que quieren intensidad con control.</p>
+        </div>
+        <div>
+          <h2>Cómo son las sesiones</h2>
+          <ul class="check-list">
+            <li>Calentamiento dinámico y activación.</li>
+            <li>Intervalos HIIT con tiempos claros y descansos reales.</li>
+            <li>MetCon estructurado con movimientos seguros.</li>
+            <li>Respiración y estiramientos para recuperar.</li>
+          </ul>
+          <h2>Beneficios</h2>
+          <p>Mayor VO2 max, mejor gestión del esfuerzo, más potencia y un metabolismo activo durante horas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-teaser">
+      <div class="container contact-banner">
+        <div>
+          <h2>Intensidad inteligente</h2>
+          <p>Prueba nuestras sesiones y siente la diferencia de un MetCon bien programado.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="contacto.html">Reservar prueba</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>RiverFit Huelva — Entrenamiento híbrido de fuerza y acondicionamiento en Huelva.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

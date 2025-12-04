@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrenamiento híbrido en Huelva | RiverFit Huelva</title>
+  <meta name="description" content="Entrenamiento híbrido en Huelva: fuerza, HIIT, calistenia y movilidad con coaching experto. Programa premium en RiverFit Huelva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">RiverFit Huelva</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="entrenamientos.html" class="active">Entrenamientos</a>
+        <a href="horarios-tarifas.html">Horarios y tarifas</a>
+        <a href="resultados-comunidad.html">Resultados</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero inner">
+      <div class="container hero-narrow">
+        <h1>Entrenamiento híbrido</h1>
+        <p class="lead">Fuerza, cardio intenso, calistenia y movilidad en un mismo plan. Entrena completo, mejora tu rendimiento y evita lesiones con seguimiento técnico.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-grid">
+        <div>
+          <h2>Qué trabajas</h2>
+          <p>Progresiones de fuerza básica (sentadillas, peso muerto, empujes), intervalos HIIT, MetCon estructurados y patrones de calistenia para control corporal.</p>
+          <h2>Para quién es</h2>
+          <p>Personas que ya entrenaron antes y quieren volver a su mejor versión, ex CrossFitters que buscan técnica y salud articular, mujeres que quieren ganar fuerza sin miedo a lesionarse.</p>
+        </div>
+        <div>
+          <h2>Cómo son las sesiones</h2>
+          <ul class="check-list">
+            <li>Calentamiento y movilidad específica.</li>
+            <li>Bloque de fuerza o calistenia con progresión medida.</li>
+            <li>Acondicionamiento HIIT/MetCon de 10–18 minutos.</li>
+            <li>Trabajo de core y respiración para cerrar.</li>
+          </ul>
+          <h2>Beneficios</h2>
+          <p>Más fuerza y masa muscular, mejor condición cardiovascular, articulaciones protegidas y sensación de energía diaria más alta.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Lo que dicen quienes lo prueban</h2>
+        <div class="grid cards-3">
+          <div class="card testimonial">
+            <p>“Pasé de entrenar sin rumbo a progresar cada mes. Puedo correr, levantar y moverme mejor.”</p>
+            <span class="tag">Carlos D.</span>
+          </div>
+          <div class="card testimonial">
+            <p>“Me daba miedo el peso. Con su guía técnica ahora hago sentadillas profundas sin dolor.”</p>
+            <span class="tag">Patricia V.</span>
+          </div>
+          <div class="card testimonial">
+            <p>“La mezcla de calistenia y fuerza me enganchó. Nunca me había sentido tan completa.”</p>
+            <span class="tag">Marta S.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-teaser">
+      <div class="container contact-banner">
+        <div>
+          <h2>¿Lista para probar el híbrido?</h2>
+          <p>Reserva tu semana de prueba y recibe una valoración inicial con un coach.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="contacto.html">Reservar plaza</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>RiverFit Huelva — Entrenamiento híbrido de fuerza y acondicionamiento en Huelva.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calistenia en Huelva | RiverFit Huelva</title>
+  <meta name="description" content="Calistenia en Huelva con progresiones seguras: dominadas, fondos, control corporal y fuerza funcional en RiverFit Huelva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">RiverFit Huelva</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="entrenamientos.html" class="active">Entrenamientos</a>
+        <a href="horarios-tarifas.html">Horarios y tarifas</a>
+        <a href="resultados-comunidad.html">Resultados</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero inner">
+      <div class="container hero-narrow">
+        <h1>Calistenia</h1>
+        <p class="lead">Entrenamiento con tu peso corporal, progresiones claras y control técnico para que cualquier persona pueda dominar dominadas, fondos y handstands.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-grid">
+        <div>
+          <h2>Qué trabajas</h2>
+          <p>Fuerza relativa, core, agarre y control motor. Progresiones desde remos en anillas hasta dominadas estrictas y fondos profundos.</p>
+          <h2>Para quién es</h2>
+          <p>Principiantes que quieren empezar sin miedo y avanzados que buscan progresar en skills de forma sólida.</p>
+        </div>
+        <div>
+          <h2>Cómo son las sesiones</h2>
+          <ul class="check-list">
+            <li>Activación de hombros, escápulas y core.</li>
+            <li>Progresiones individualizadas de tracción y empuje.</li>
+            <li>Trabajo de hollow/arch y apoyo de handstand según nivel.</li>
+            <li>Estabilidad y movilidad para cuidar tus articulaciones.</li>
+          </ul>
+          <h2>Beneficios</h2>
+          <p>Mejor control corporal, fuerza útil y una postura sólida que te acompaña en cualquier otro deporte.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-teaser">
+      <div class="container contact-banner">
+        <div>
+          <h2>Domina tu cuerpo</h2>
+          <p>Empieza con progresiones adaptadas y avanza cada semana.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="contacto.html">Quiero mi prueba</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>RiverFit Huelva — Entrenamiento híbrido de fuerza y acondicionamiento en Huelva.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

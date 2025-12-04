@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | RiverFit Huelva</title>
+  <meta name="description" content="Blog de entrenamiento funcional y híbrido en Huelva: consejos de fuerza, HIIT, calistenia y elección de gimnasio con RiverFit Huelva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">RiverFit Huelva</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="entrenamientos.html">Entrenamientos</a>
+        <a href="horarios-tarifas.html">Horarios y tarifas</a>
+        <a href="resultados-comunidad.html">Resultados</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero inner">
+      <div class="container hero-narrow">
+        <h1>Blog RiverFit</h1>
+        <p class="lead">Ideas prácticas para entrenar fuerte, moverte mejor y elegir el gimnasio que te haga progresar.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid cards-3">
+          <div class="card">
+            <h3>Gimnasio en Huelva: cómo elegir si estás cansado de entrenar solo</h3>
+            <p>Qué buscar en un centro: coaching real, programación y comunidad que te impulse.</p>
+            <a class="link-arrow" href="#">Leer más</a>
+          </div>
+          <div class="card">
+            <h3>Entrenamiento de fuerza para mujeres: mitos que frenan tus resultados</h3>
+            <p>Por qué levantar peso es seguro, cómo empezar y qué progresiones usar.</p>
+            <a class="link-arrow" href="#">Leer más</a>
+          </div>
+          <div class="card">
+            <h3>Qué es el entrenamiento híbrido y por qué puede cambiar tu cuerpo</h3>
+            <p>La combinación de fuerza, HIIT y calistenia que mejora todo tu rendimiento.</p>
+            <a class="link-arrow" href="#">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>RiverFit Huelva — Entrenamiento híbrido de fuerza y acondicionamiento en Huelva.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

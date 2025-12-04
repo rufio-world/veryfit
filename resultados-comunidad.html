@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados y comunidad | RiverFit Huelva</title>
+  <meta name="description" content="Resultados reales de la comunidad RiverFit Huelva. Testimonios, avances y retos de entrenamiento funcional e híbrido en Huelva.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">RiverFit Huelva</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Inicio</a>
+        <a href="entrenamientos.html">Entrenamientos</a>
+        <a href="horarios-tarifas.html">Horarios y tarifas</a>
+        <a href="resultados-comunidad.html" class="active">Resultados</a>
+        <a href="quienes-somos.html">Quiénes somos</a>
+        <a href="blog.html">Blog</a>
+        <a class="btn btn-ghost" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero inner">
+      <div class="container hero-narrow">
+        <h1>Resultados y comunidad</h1>
+        <p class="lead">Historias reales, retos internos y mejoras medibles. Aquí entrenamos para progresar, no para competir con el ego.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Testimonios</h2>
+        <div class="grid cards-3">
+          <div class="card testimonial">
+            <p>“En 6 meses bajé 8 kg de grasa y subí mis sentadillas 30 kg. Sin dolor de espalda.”</p>
+            <span class="tag">Elena M.</span>
+          </div>
+          <div class="card testimonial">
+            <p>“Por primera vez hago dominadas estrictas. El seguimiento técnico marca la diferencia.”</p>
+            <span class="tag">Nuria F.</span>
+          </div>
+          <div class="card testimonial">
+            <p>“Vuelvo a jugar al pádel sin quedarme sin aire. El HIIT está pensado, no improvisado.”</p>
+            <span class="tag">Iván J.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Antes y después (en palabras)</h2>
+        <div class="grid cards-3">
+          <div class="card">
+            <h3>De dolor a potencia</h3>
+            <p>Ana llegó con molestias de rodilla. Ajustamos sentadillas, subió la fuerza de glúteo y ahora corre 5K sin dolor.</p>
+          </div>
+          <div class="card">
+            <h3>De cardio vacío a cuerpo completo</h3>
+            <p>Rafa solo hacía cinta. Con fuerza + HIIT perdió 6 cm de cintura y ganó músculo en 12 semanas.</p>
+          </div>
+          <div class="card">
+            <h3>De CrossFit agotado a progreso real</h3>
+            <p>Sandra quería intensidad sin lesionarse. Con nuestro híbrido sube cargas y mejora su técnica de halterofilia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Retos y eventos</h2>
+        <div class="grid cards-3">
+          <div class="card">
+            <h3>Reto 30 días de fuerza</h3>
+            <p>Seguimiento de cargas y PRs semanales para crear hábito.</p>
+          </div>
+          <div class="card">
+            <h3>Salida al río</h3>
+            <p>Entrenamiento outdoor y movilidad en la ría de Huelva.</p>
+          </div>
+          <div class="card">
+            <h3>Workshop de técnica</h3>
+            <p>Sesiones extra de técnica de peso muerto, dominadas y handstand.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-teaser">
+      <div class="container contact-banner">
+        <div>
+          <h2>Únete a la comunidad</h2>
+          <p>Prueba una semana y descubre cómo entrenar fuerte y seguro.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="contacto.html">Reservar prueba</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>RiverFit Huelva — Entrenamiento híbrido de fuerza y acondicionamiento en Huelva.</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">YouTube</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Aviso legal</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>
